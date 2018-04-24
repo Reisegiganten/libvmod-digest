@@ -1,0 +1,16 @@
+Source: libvarnish5-digest-vmod
+Section: unknown
+Priority: optional
+Maintainer: Nicolas Mendoza <nicolas@reisegiganten.no>
+Build-Depends: debhelper (>=9),autotools-dev, libmhash-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/varnish/libvmod-digest
+#Vcs-Git: git://anonscm.debian.org/collab-maint/libvarnish5-digest-vmod.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/libvarnish5-digest-vmod.git
+
+Package: libvarnish5-digest-vmod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmhash2
+Description: Digest and HMAC vmod
+ Varnish Module (vmod) for computing HMAC, message digests and working with base64.
+ All HMAC- and hash-functionality is provided by libmhash, while base64 is implemented locally.

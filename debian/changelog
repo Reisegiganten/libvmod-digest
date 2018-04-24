@@ -1,0 +1,5 @@
+libvarnish5-digest-vmod (1.0.2-2) unstable; urgency=medium
+
+  * Initial release
+
+ -- Nicolas Mendoza <nicolas@reisegiganten.no>  Tue, 24 Apr 2018 17:08:11 +0200
